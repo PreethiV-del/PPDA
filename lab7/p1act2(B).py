@@ -1,7 +1,7 @@
 def temperature_converter():
     print("Temperature Converter")
     temp = float(input("Enter temperature: "))
-    unit = input("Enter unit (C, F, or K): ").upper()  # Allow lowercase input
+    unit = input("Enter unit (C, F, or K): ").upper()
 
     print("Convert to:")
     print("1. Celsius")
